@@ -2,39 +2,49 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import { FaCode as Code, FaDatabase as Database } from "react-icons/fa";
+import { IoIosCloudy as Cloud_tech } from "react-icons/io";
+import {
+  GrPersonalComputer as Computer_tech,
+  GrTechnology as Tech,
+} from "react-icons/gr";
+import { SiFramework as Frameworks_and_tools } from "react-icons/si";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a Data Scientist with a passion for transforming data into actionable insights to drive business growth. My expertise includes leveraging advanced Generative Networks, developing robust machine learning models, and crafting insightful data visualizations with dashboards. With over 3 years of hands-on experience, I have honed my skills in optimizing database queries, implementing AI models with PyTorch and TensorFlow, and enhancing data processing performance. I have also worked with Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) techniques to improve data-driven decision-making. My goal is to utilize my expertise to create innovative solutions that deliver exceptional user experiences and drive significant business success.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a passionate and skilled data scientist with a strong background in machine learning, AI, and full-stack development. With professional experience in developing and maintaining machine learning models, creating data visualizations, and optimizing data pipelines, I have worked with technologies like Python, PyTorch, TensorFlow, SQL, React, and MongoDB. My expertise includes synthetic data creation, data analysis, AI model implementation, and enhancing business operations. I am also proficient in CI/CD processes and cloud technologies such as Docker, Kubernetes, and RedHat OpenShift. I enjoy collaborating with teams to solve complex problems and deliver high-quality solutions. Outside of work, I stay active in exploring new technologies and contributing to projects that drive innovation.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "01/2023 - 12/2023",
+    city_country: "Germany, Regensburg",
+    role: "DATA SCIENTIST (working-student) ",
+    company: "INFINEON TECHNOLOGIES",
+    description: `Developed and maintained machine learning models, boosting in-house client engagement and speed by more than 60%. Created data visualizations with Matplotlib and Seaborn for better insights and dashboards. Enhanced methods' accuracy using pre-trained Large Language Models (LLMs) API. Optimized SQL queries, reducing response time, and established a seamless data pipeline. Collaborated with a team, ensuring project success and integrating machine learning models with data engineering teams.`,
+    technologies: [
+      "Python",
+      "PyTorch",
+      "RAG",
+      "SQL",
+      "Matplotlib",
+      "Seaborn",
+      "Data Engineering",
+    ],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "05/2019 - 11/2021",
+    city_country: "Germany, Erlangen",
+    role: "Sydney, Australia",
+    company: "DXIGN LAB (remote)",
+    description: `Designed and implemented AI models using PyTorch and TensorFlow to boost sales through customer data analysis from APIs. Applied various machine learning techniques for data analysis and sales pattern recognition. Created a Power BI dashboard for AI-driven sales data analysis, improving strategy effectiveness. Extracted and analyzed customer data from APIs using Python to refine AI-based sales strategies. Enhanced forecasting accuracy by 7% with deep learning models improving backend performance. Collaborated with software engineers and team leads using Jira to optimize AI-driven customer interactions, increasing revenue.`,
+    technologies: [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "SQL",
+      "MongoDB",
+      "Power BI",
+    ],
   },
 ];
 
@@ -70,7 +80,49 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Jahnstr. 4, 91054 Erlangen, Germany",
+  phoneNo: "+491742555647 ",
+  email: "asheerali1997@gmail.com",
 };
+
+export const TECHNOLOGIES = [
+  {
+    icon: Code,
+    label: "Programming Languages",
+    text: "Python | C/C++ | JavaScript | HTML | CSS | Bootstrap",
+  },
+  {
+    icon: Database,
+    label: "Database Systems",
+    text: "PostgreSQL | MySQL | SQLite | MongoDB",
+  },
+  {
+    icon: Cloud_tech,
+    label: "Cloud Stack",
+    text: "Docker | Kubernetes | Virtual Machine | RedHat Open Shift",
+  },
+  {
+    icon: Frameworks_and_tools,
+    label: "Frameworks and Tools",
+    text: "FastAPI | Git | Node.js | VSCode | CI/CD | MATLAB | TABLEAU | PowerBI | Numpy | Pandas | PyTorch | TensorFlow | scikit-learn | OpenCV | Django | React",
+  },
+  {
+    icon: Computer_tech,
+    label: "Operating Systems",
+    text: "Windows | Linux | MacOS",
+  },
+  {
+    icon: Tech,
+    label: "Technologies",
+    text: "RESTful APIs | WebSockets | Microservices | GraphQL",
+  },
+];
+
+export const colors = [
+  "text-white",
+  "text-red-400",
+  "text-sky-400",
+  "text-gray-500",
+  "text-cyan-400",
+  "text-green-400",
+];

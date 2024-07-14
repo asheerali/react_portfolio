@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants/index";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/dp_edit.png";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -35,7 +35,7 @@ const Hero = () => {
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight
 text-transparent"
             >
-              Software Developer
+              Data Scientist
             </motion.span>
             <motion.p
               variants={container(1)}
@@ -43,9 +43,6 @@ text-transparent"
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
             >
-              I am a full stack developer with a passion for building
-              applications that are user-friendly and accessible. I have
-              experience working with React, Node.js, and MongoDB.
               {HERO_CONTENT}
             </motion.p>
           </div>
@@ -58,7 +55,7 @@ text-transparent"
               transition={{ delay: 0.5, duration: 1 }}
               src={profilePic}
               alt="Profile"
-              // className="rounded-full w-48 h-48 object-cover"
+              className="rounded-3xl w-30 h-30 max-w-64 mt-24"
             />
           </div>
         </div>

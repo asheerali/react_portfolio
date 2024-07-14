@@ -1,13 +1,10 @@
 // import logo from "../assets/kevinRushLogo.png";
 import { FaLinkedin, FaGithub, FaTwitterSquare } from "react-icons/fa";
+import { IoMdContact } from "react-icons/io";
 
 const Navbar = () => {
   return (
     <nav className=" mb-20 flex items-center justify-between py-6">
-      {/* <div className="flex items-center flex-shrink-0">
-        <img src={logo} alt="Logo" className="mx-2 w-10" />
-      </div> */}
-
       <div className="flex items-center flex-shrink-0">
         <svg
           width="50"
@@ -26,9 +23,30 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center m-2 justify-center gap-4 text-2xl">
-        <FaLinkedin className="text-white text-2xl mx-2" />
-        <FaGithub className="text-white text-2xl mx-2" />
-        <FaTwitterSquare className="text-white text-2xl mx-2" />
+        <a
+          href="https://www.linkedin.com/in/asheerali/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin className="text-white text-2xl mx-2" />{" "}
+        </a>
+        <a
+          href="https://github.com/asheerali"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub className="text-white text-2xl mx-2" />
+        </a>
+        <a
+          href="https://x.com/asheerali11"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaTwitterSquare className="text-white text-2xl mx-2" />
+        </a>
+        <a href="mailto:asheerali1997@gmail.com">
+          <IoMdContact className="text-white text-2xl mx-2" />
+        </a>
       </div>
     </nav>
   );
