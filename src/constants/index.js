@@ -48,6 +48,26 @@ export const EXPERIENCES = [
   },
 ];
 
+export const MASTER_THESIS = [
+  {
+    year: "12/2023 - 06/2023",
+    city_country: "Germany, Regensburg",
+    role: "Master Thesis",
+    company: "INFINEON TECHNOLOGIES",
+    description: `Utilized Generative Networks and a state-of-the-art conditional GAN and Diffusion models for synthetic data creation and extraction from raw defect images. Enhanced data mining processes, facilitating the extraction and translation of valuable data into actionable insights. Engineered a comprehensive pipeline for efficient and repeatable synthetic data creation, optimizing data mining operations. Streamlined processes to enable more targeted identification of process inefficiencies, deviations, and bottlenecks, leading to significant improvements in business operations.`,
+    technologies: [
+      "Python",
+      "PyTorch",
+      "GANs",
+      "Diffusion Models",
+      "Matplotlib",
+      "Data Mining",
+      "Data Preprocessing",
+      "Data Engineering",
+    ],
+  },
+];
+
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
